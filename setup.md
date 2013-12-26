@@ -16,3 +16,7 @@ start rvm:
   
 ## Capistrano forward agent
 http://blog.blenderbox.com/2013/02/20/ssh-agent-forwarding-with-github/
+
+
+## Yay it works but I have this issue
+http://www.capistranorb.com/documentation/faq/why-does-something-work-in-my-ssh-session-but-not-in-capistrano/
