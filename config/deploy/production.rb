@@ -33,14 +33,14 @@ server '146.185.132.229', user: 'deploy', roles: %w{web app db}#, my_property: :
 #    auth_methods: %w(password)
 #  }
 # and/or per server
-server '146.185.132.229',
-  user: 'deploy',
-  roles: %w{web app db},
-  ssh_options: {
-    user: 'deploy', # overrides user setting above
-    keys: %w(/home/deploy/.ssh/id_rsa),
-    forward_agent: false,
-    auth_methods: %w(publickey)
-  }
+#server '146.185.132.229',
+#  user: 'deploy',
+#  roles: %w{web app db},
+#  ssh_options: {
+#    user: 'deploy', # overrides user setting above
+#    keys: %w(/home/deploy/.ssh/id_rsa),
+#    forward_agent: false,
+#    auth_methods: %w(publickey)
+#  }
 
 fetch(:default_env).merge!(rails_env: :production)
