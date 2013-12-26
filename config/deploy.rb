@@ -1,9 +1,7 @@
 set :application, 'star'
 set :scm, :git
-set :repo_url, 'git@github.com:Aerotune/star.git'
-
-
-
+set :repo_url, 'ssh://github.com/Aerotune/star'
+set :ssh_options, { :forward_agent => true }
 # set :format, :pretty
 # set :log_level, :debug
 # set :pty, true

@@ -13,7 +13,7 @@ role :db,  %w{deploy@146.185.132.229}, primary: true
 # Enter your github username here
 set :scm_username, "aerotune"
 
-set :deploy_to, '/var/www/star_production'
+#set :deploy_to, '/var/www/star_production'
 
 # Extended Server Syntax
 # ======================
