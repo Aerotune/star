@@ -17,6 +17,12 @@ start rvm:
 ## Capistrano forward agent
 http://blog.blenderbox.com/2013/02/20/ssh-agent-forwarding-with-github/
 
+You must have added
+"ForwardAgent yes" to /etc/ssh_config on your local machine
+and run the command "ssh-add ~/.ssh/id_rsa"
+
+
+
 ## On server
 mkdir /var/www
 chmod 777 /var/www
